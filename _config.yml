@@ -1,0 +1,208 @@
+# Site
+repository: jcapron/me
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Julien Capron
+title: Director of engineering
+email: contact@juliencapron.com
+website: www.juliencapron.com
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username:  jcapron
+linkedin_username: juliencapron
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.png
+  # <mark>D&D</mark>
+about_content: |
+  Hi, my name's Julien Capron.
+
+  I am a Product-minded engineer with a passion about people management, process optimization and continuous improvement. Excellent project management skills, ruthless prioritization, takes initiative with a “can do” attitude.
+
+content:
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        title: Know Thy Neighbor
+        quote: >
+          Company face directory turned into a quiz game.
+        description: |
+          This started as a face directory so that people can search for their coworkers and have a few facts about them.
+
+          Know Thy Neighbor became a quiz game for people to match names to faces, the fastest you get it right, the more points you get. People got very competitive to rise in the leaderboard.
+
+          This is now part of our onboarding process at CBI, during your first week you will be invited to complete your profile and asked to play the game to get to know your neighbors!
+
+      - layout: left
+        title: Hack Day
+        quote: >
+          Main app to organize Hack Days.
+        description: |
+          Hack Day is a company-wide, 24-hour hackathon that happens once a quarter. Anyone can pair with anyone they want, and work on anything they want, as long as it's related to CBI.
+
+          This app is used for people to register their projects, share ideas for others to grab, read about past Hack Days. At the end of the event, people vote in the app to choose their favorite projects in 3 categories: Most Creative, Most Useful, and Most Impressive.
+
+      - layout: left
+        title: Jira Master
+        quote: >
+          Easy way to track metrics that matter to the team!
+        description: |
+          I implemented custom dashboard to track metrics using Jira data.
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: CB Insights
+        link: cbinsights.com
+        sub_title: Director of Engineering
+        caption: October 2019 - Present
+        quote: >
+          Engineering director overseeing 3 product feature teams.
+        description: |
+            As a director, I:
+
+            - Promoted two of my managers to directors
+            - Partner with Product to review, prioritize and sequence Product initiatives
+            - Implemented Day Aways, one Friday a month where engineers can work on whatever they want. It started with just my teams, it is now followed by the whole department
+            - Revamped the Engineering career framework
+            - Shared my hiring manager resources with all managers: communication templates, interview templates, FAQ from interviewers
+            - Shared a manager toolkit: how to do 1:1s, give feedback, coaching and delegation
+            - Coordinate recruiting efforts and resources across 3 sources
+            - Currently revamping our onboarding processes
+
+            Besides my engineering duties, I also:
+
+            - Organize and host quarterly hack days, a company wide 24-hour event where people can pair with anyone and work on anything. We’ve done 17 so far
+            - I maintain internal apps
+              - Hack day app, for people to register their projects, collect ideas and vote on our favorite projects
+              - Know Thy Neighbor, started as a company directory and includes a quiz game to match people’s names and faces
+              - Know Thy Mentor, spinoff to KTN to match people with skills with people who want to learn
+              - Custom Jira dashboards that I initially built for my team to follow metrics we were tracking, made it generic so that any team can use it
+            - I am also the president of our D&D club and I DM games for a group of 5 people every 2 weeks
+
+      - layout: left
+        sub_title: Engineering Manager
+        caption: January 2017 - September 2019
+        quote: >
+          The team I was on grew from 3 people to 10 and split into 2 teams, that’s when I stepped in as the manager for one of the two teams.
+        description: |
+            During that time, I grew the team from 3 to 7 people and worked with 4 different Technical Program Managers. Some of my noticeable achievements as a manager were:
+
+            - Promoted two reports to managers of their own team
+            - Built our first two fully remote teams in 2019
+            - Helped internal candidates transition to management in CBI workshops
+            - Managed Engineering events budget
+
+      - layout: left
+        sub_title: Full Stack Developer
+        caption: June 2015 - December 2016
+        quote: >
+          I joined CBI 6 years ago as a back-end engineer working primarily with python and go.
+        description: |
+            Some of my main contributions as an individual contributor were:
+
+            - Converted complex MySQL searches to use CloudSearch
+            - Implemented and supported an ETL framework to deliver custom CSVs of our data to clients via FTP, bringing $1.2M in annual revenue alone
+
+      - layout: left
+        title: PINCHme
+        link: pinchme.com
+        sub_title: Ruby on Rails Developer
+        caption: March 2014 - June 2015
+        quote: >
+          I was on a team of 5 engineers and the company was 25 people total.
+        description: |
+            PINCHme offers brands the opportunity to get products into the hands of their ideal customers through targeted digital promotions and accountable product sampling.
+
+            With an extensive database on US consumer shopping preferences, PINCHme is disrupting the way CPG manufacturers market their products.
+
+            - Worked with Ruby on Rails, Backbone.Marionette, Coffeescript, MySQL
+            - Optimized user experience by caching most of the site load so users can login and grab their samples as fast as possible
+            - Implemented a Bundle Model offering multiple samples at once to save on shipping costs
+
+      - layout: left
+        title: Jumblzar
+        link: jumblzar.com
+        sub_title: Ruby on Rails Developer
+        caption: April 2013 - February 2014
+        quote: >
+          Early-stage startup where I was one of three.
+        description: |
+            Jumblzar was a marketplace for parents to buy and sell gently used baby, child and maternity items with other parents in their local community.
+
+            - Implemented a CMS, a comment system, likable items, followable users, an activity news feed, a referral system, set up friendly ids, 2FA via SMS and a feedback system
+            - Worked on mailers and different parts of the UI using HAML, Twitter Bootstrap and Font Awesome
+
+      - layout: left
+        title: Desknet
+        link: desknetinc.com
+        sub_title: Technical Consultant
+        caption: May 2012 - January 2013
+        quote: >
+          Involved in the full life cycle of each project, from requirements gathering, through construction and project implementation.
+        description: |
+            As a Technical Consultant, I:
+
+            - Collected, reviewed and analyzed customer requirements
+            - Provided flexible, high quality dynamic enterprise publishing solutions using DeskNet's ContentWelder platform
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Stevens Institute of Technology
+        caption: 2011
+        sub_title: Master's degree, Information Systems
+        quote: >
+          I did two semesters at Stevens as part of a partnership with EPITA.
+        description: |
+            The MSIS program is designed to prepare graduates to lead, manage and respond to managerial changes and opportunities with business, management, technical and interpersonal skills.
+
+            Program Focus: how to manage IT, the importance of the relation IT-Business and how the design of an organization is critical to manage IT.
+
+            Main courses: Management of IT Organizations, Organizational Behavior and Design, Integrating IS Technologies.
+
+            I was also working as a Research Assistant, involved in a project designed and developed to detect threats for the US Army in a war game simulation, with the game engine Unity.
+
+      - layout: left
+        title: EPITA
+        caption: 2006 - 2011
+        sub_title: Master's Degree, Computer Science, Telecommunications
+        quote: >
+          EPITA is a 5-year engineering school.
+        description: |
+            The Telecom department forms engineers in all areas related to telecommunications, networks and computer science.
+
+            The program combines technical expertise and interpersonal skills.
+
+  - title: A Little More About Me
+    layout: text
+    content: |
+      Alongside my interests in software engineering and management some of my other interests and hobbies are:
+      - Dungeons and Dragons - I only started a year and a half ago when we all became remote and I absolutely love it. I am now the president of a D&D club at work and I have ben DMing games for a group of 5 people every 2 weeks. I also shared a [DM guide](https://juliensdnd.notion.site/juliensdnd/DM-Screen-eca042f5f03746e9958703abeee51ba7) online, made in Notion.
+      - Wrestling - I have been watching Pro Wrestling for over 20 years now and still follow it today.
+      - Gardening - I recently started after we bought our first house, I have been loving doing any kind of work while outside.
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag

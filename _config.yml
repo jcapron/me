@@ -9,7 +9,8 @@ version: 2
 name: Julien Capron
 title: Senior Director of Engineering
 email: contact@juliencapron.com
-blog: www.juliencapron.com/blog
+website: blog.juliencapron.com
+website_title: Blog
 
 # User Interface Settings
 darkmode: false

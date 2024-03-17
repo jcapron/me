@@ -1,32 +1,29 @@
-# Site
+# Site Configuration
 repository: jcapron/me
 favicon: images/favicon.ico
 
-# Content configuration version
+# Content Version
 version: 2
 
-# Personal info
+# Personal Information
 name: Julien Capron
-title: Director of engineering
+title: Senior Director of Engineering
 email: contact@juliencapron.com
-website: www.juliencapron.com
+blog: www.juliencapron.com/blog
 
-# Dark Mode (true/false/never)
+# User Interface Settings
 darkmode: false
 
-# Social links
-github_username:  jcapron
+# Social Media Profiles
+github_username: jcapron
 linkedin_username: juliencapron
 
 # About Section
-# about_title: About Me
 about_profile_image: images/profile.png
-  # <mark>D&D</mark>
 about_content: |
-  Hi, my name's Julien Capron.
+  Welcome! I'm Julien Capron, a Senior Director of Engineering with a passion for product innovation, team building, and process optimization. My journey in the tech industry is marked by a relentless pursuit of excellence and a proactive, solution-focused approach. Here, I share my professional experiences and insights.
 
-  I am a Product-minded engineer with a passion about people management, process optimization and continuous improvement. Excellent project management skills, ruthless prioritization, takes initiative with a “can do” attitude.
-
+# Projects and Professional Experience
 content:
   - title: Projects
     layout: list
@@ -34,85 +31,70 @@ content:
       - layout: left
         title: Know Thy Neighbor
         quote: >
-          Company face directory turned into a quiz game.
+          Transforming a simple company directory into a competitive, engaging quiz game.
         description: |
-          This started as a face directory so that people can search for their coworkers and have a few facts about them.
-
-          Know Thy Neighbor became a quiz game for people to match names to faces, the fastest you get it right, the more points you get. People got very competitive to rise in the leaderboard.
-
-          This is now part of our onboarding process at CBI, during your first week you will be invited to complete your profile and asked to play the game to get to know your neighbors!
+          Know Thy Neighbor, originally a straightforward company directory, transformed into an engaging quiz game, strengthening team bonds and becoming an integral part of our onboarding process.
 
       - layout: left
         title: Hack Day
         quote: >
-          Main app to organize Hack Days.
+          Fostering innovation and camaraderie through a company-wide hackathon.
         description: |
-          Hack Day is a company-wide, 24-hour hackathon that happens once a quarter. Anyone can pair with anyone they want, and work on anything they want, as long as it's related to CBI.
-
-          This app is used for people to register their projects, share ideas for others to grab, read about past Hack Days. At the end of the event, people vote in the app to choose their favorite projects in 3 categories: Most Creative, Most Useful, and Most Impressive.
+          I spearheaded Hack Day, a company-wide hackathon fostering creativity and teamwork. This platform I maintained allows team members to showcase innovative projects and celebrate collective ingenuity.
 
       - layout: left
         title: Jira Master
         quote: >
-          Easy way to track metrics that matter to the team!
+          Streamlining team efficiency with custom Jira dashboard implementations.
         description: |
-          I implemented custom dashboard to track metrics using Jira data.
+          In Jira Master, I integrated custom dashboards to streamline project tracking, enhancing our team's efficiency and effectiveness in managing complex projects.
 
   - title: Experience
     layout: list
     content:
       - layout: left
+        title: Storyblocks
+        link: storyblocks.com
+        sub_title: Senior Director of Engineering
+        caption: January 2023 - Present
+        quote: >
+          Elevating organizational performance through strategic leadership and innovation.
+        description: |
+          In my tenure as Senior Director, I expanded my leadership to the Data Science team, significantly impacting key business metrics. My work championing Core Web Vitals led to notable improvements in site performance. Additionally, my leadership in nurturing team dynamics and implementing effective performance management practices has substantially increased productivity and accountability across teams.
+
+      - layout: left
+        sub_title: Director of Engineering
+        caption: December 2021 - December 2022
+        quote: >
+          Spearheading transformative change and fostering a growth-oriented culture.
+        description: |
+          During my initial year at Storyblocks, I led pivotal initiatives, significantly enhancing our engineering processes and team culture. My efforts in the Delivery workstream brought about notable improvements in cross-functional collaboration and project execution. A key focus was cultivating trust and strong relationships, which greatly boosted team morale and efficiency.
+
+      - layout: left
         title: CB Insights
         link: cbinsights.com
         sub_title: Director of Engineering
-        caption: October 2019 - Present
+        caption: October 2019 - November 2021
         quote: >
-          Engineering director overseeing 3 product feature teams.
+          Leading with innovation and a strategic focus.
         description: |
-            As a director, I:
-
-            - Promoted two of my managers to directors
-            - Partner with Product to review, prioritize and sequence Product initiatives
-            - Implemented Day Aways, one Friday a month where engineers can work on whatever they want. It started with just my teams, it is now followed by the whole department
-            - Revamped the Engineering career framework
-            - Shared my hiring manager resources with all managers: communication templates, interview templates, FAQ from interviewers
-            - Shared a manager toolkit: how to do 1:1s, give feedback, coaching and delegation
-            - Coordinate recruiting efforts and resources across 3 sources
-            - Currently revamping our onboarding processes
-
-            Besides my engineering duties, I also:
-
-            - Organize and host quarterly hack days, a company wide 24-hour event where people can pair with anyone and work on anything. We’ve done 17 so far
-            - I maintain internal apps
-              - Hack day app, for people to register their projects, collect ideas and vote on our favorite projects
-              - Know Thy Neighbor, started as a company directory and includes a quiz game to match people’s names and faces
-              - Know Thy Mentor, spinoff to KTN to match people with skills with people who want to learn
-              - Custom Jira dashboards that I initially built for my team to follow metrics we were tracking, made it generic so that any team can use it
-            - I am also the president of our D&D club and I DM games for a group of 5 people every 2 weeks
+          As Director at CB Insights, I nurtured leadership skills within the team and collaborated closely on product strategy. I spearheaded initiatives like Day Aways, revised the engineering career framework, and introduced comprehensive onboarding processes, contributing significantly to a culture of innovation and strategic execution.
 
       - layout: left
         sub_title: Engineering Manager
         caption: January 2017 - September 2019
         quote: >
-          The team I was on grew from 3 people to 10 and split into 2 teams, that’s when I stepped in as the manager for one of the two teams.
+          Managing and growing high-performing engineering teams.
         description: |
-            During that time, I grew the team from 3 to 7 people and worked with 4 different Technical Program Managers. Some of my noticeable achievements as a manager were:
-
-            - Promoted two reports to managers of their own team
-            - Built our first two fully remote teams in 2019
-            - Helped internal candidates transition to management in CBI workshops
-            - Managed Engineering events budget
+          In my role as Engineering Manager, I was instrumental in scaling the team and introducing fully remote teams. I focused on leadership development and managed our Engineering events budget, contributing significantly to team growth and cohesion.
 
       - layout: left
         sub_title: Full Stack Developer
         caption: June 2015 - December 2016
         quote: >
-          I joined CBI 6 years ago as a back-end engineer working primarily with python and go.
+          Technical contributions in back-end development.
         description: |
-            Some of my main contributions as an individual contributor were:
-
-            - Converted complex MySQL searches to use CloudSearch
-            - Implemented and supported an ETL framework to deliver custom CSVs of our data to clients via FTP, bringing $1.2M in annual revenue alone
+          As a Full Stack Developer, my work involved enhancing database search capabilities and developing an ETL framework, which was crucial in driving significant annual revenue.
 
       - layout: left
         title: PINCHme
@@ -120,15 +102,9 @@ content:
         sub_title: Ruby on Rails Developer
         caption: March 2014 - June 2015
         quote: >
-          I was on a team of 5 engineers and the company was 25 people total.
+          Full-stack development in a dynamic startup environment.
         description: |
-            PINCHme offers brands the opportunity to get products into the hands of their ideal customers through targeted digital promotions and accountable product sampling.
-
-            With an extensive database on US consumer shopping preferences, PINCHme is disrupting the way CPG manufacturers market their products.
-
-            - Worked with Ruby on Rails, Backbone.Marionette, Coffeescript, MySQL
-            - Optimized user experience by caching most of the site load so users can login and grab their samples as fast as possible
-            - Implemented a Bundle Model offering multiple samples at once to save on shipping costs
+          At PINCHme, I worked on optimizing the user experience and implementing features that significantly impacted the company's product distribution and marketing strategies.
 
       - layout: left
         title: Jumblzar
@@ -136,12 +112,9 @@ content:
         sub_title: Ruby on Rails Developer
         caption: April 2013 - February 2014
         quote: >
-          Early-stage startup where I was one of three.
+          Developing core features in an early-stage startup.
         description: |
-            Jumblzar was a marketplace for parents to buy and sell gently used baby, child and maternity items with other parents in their local community.
-
-            - Implemented a CMS, a comment system, likable items, followable users, an activity news feed, a referral system, set up friendly ids, 2FA via SMS and a feedback system
-            - Worked on mailers and different parts of the UI using HAML, Twitter Bootstrap and Font Awesome
+          My time at Jumblzar was marked by significant contributions to the platform's development, including implementing a CMS, enhancing user engagement features, and optimizing the user interface.
 
       - layout: left
         title: Desknet
@@ -149,12 +122,9 @@ content:
         sub_title: Technical Consultant
         caption: May 2012 - January 2013
         quote: >
-          Involved in the full life cycle of each project, from requirements gathering, through construction and project implementation.
+          Delivering enterprise solutions through technical consultancy.
         description: |
-            As a Technical Consultant, I:
-
-            - Collected, reviewed and analyzed customer requirements
-            - Provided flexible, high quality dynamic enterprise publishing solutions using DeskNet's ContentWelder platform
+          As a Technical Consultant at Desknet, I played a pivotal role in analyzing customer requirements and delivering dynamic enterprise publishing solutions.
 
   - title: Education
     layout: list
@@ -164,45 +134,32 @@ content:
         caption: 2011
         sub_title: Master's degree, Information Systems
         quote: >
-          I did two semesters at Stevens as part of a partnership with EPITA.
+          Advanced studies in Information Systems.
         description: |
-            The MSIS program is designed to prepare graduates to lead, manage and respond to managerial changes and opportunities with business, management, technical and interpersonal skills.
-
-            Program Focus: how to manage IT, the importance of the relation IT-Business and how the design of an organization is critical to manage IT.
-
-            Main courses: Management of IT Organizations, Organizational Behavior and Design, Integrating IS Technologies.
-
-            I was also working as a Research Assistant, involved in a project designed and developed to detect threats for the US Army in a war game simulation, with the game engine Unity.
+          My studies at Stevens focused on IT management, organizational design, and technology integration. I also contributed as a Research Assistant on a project for the US Army using Unity for war game simulations.
 
       - layout: left
         title: EPITA
         caption: 2006 - 2011
         sub_title: Master's Degree, Computer Science, Telecommunications
         quote: >
-          EPITA is a 5-year engineering school.
+          Comprehensive engineering education in Computer Science and Telecommunications.
         description: |
-            The Telecom department forms engineers in all areas related to telecommunications, networks and computer science.
-
-            The program combines technical expertise and interpersonal skills.
+          At EPITA, I gained a solid foundation in telecommunications, networks, and computer science, balancing technical expertise with interpersonal skills.
 
   - title: A Little More About Me
     layout: text
     content: |
-      Alongside my interests in software engineering and management some of my other interests and hobbies are:
-      - Dungeons and Dragons - I only started a year and a half ago when we all became remote and I absolutely love it. I am now the president of a D&D club at work and I have ben DMing games for a group of 5 people every 2 weeks. I also shared a [DM guide](https://juliensdnd.notion.site/juliensdnd/DM-Screen-eca042f5f03746e9958703abeee51ba7) online, made in Notion.
-      - Wrestling - I have been watching Pro Wrestling for over 25 years now and still follow it today.
-      - Gardening - I recently started after we bought our first house, I have been loving doing any kind of work while outside.
+      Beyond my professional life, I am deeply passionate about Dungeons and Dragons, pro wrestling, and gardening. These hobbies reflect my love for strategy, performance, and nurturing growth, both in and out of the workplace.
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
-
+# https://sproogen.github.io/modern-resume-theme/
 sass:
   sass_dir: _sass
   style: compressed
-
 plugins:
  - jekyll-seo-tag

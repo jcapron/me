@@ -1,5 +1,9 @@
 source "https://rubygems.org"
 
+gem 'nokogiri', '>= 1.13'
+gem 'webrick', '~> 1.7'
+gem 'csv'
+
 gem "github-pages", group: :jekyll_plugins
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

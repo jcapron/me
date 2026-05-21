@@ -1,0 +1,17 @@
+# Local AI agent context. Not for public repo.
+AGENT_PLAYBOOK.md
+CLAUDE.md
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Editor noise
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*~

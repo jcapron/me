@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Julien Capron</title>
-  <meta name="description" content="French engineering leader in New Jersey. Translator between fuzzy ideas and the first real version. Currently building Ancre.">
+  <meta name="description" content="Julien Capron makes messy ideas real enough to test. Currently building Ancre for non-technical founders.">
 
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://juliencapron.com/">
   <meta property="og:title" content="Julien Capron">
-  <meta property="og:description" content="French engineering leader in New Jersey. Translator between fuzzy ideas and the first real version. Currently building Ancre.">
+  <meta property="og:description" content="Julien Capron makes messy ideas real enough to test. Currently building Ancre for non-technical founders.">
   <meta name="twitter:card" content="summary">
 
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%93%3C/text%3E%3C/svg%3E">
@@ -17,36 +17,99 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body { font-feature-settings: "kern", "liga", "calt"; }
-    .link { transition: color 150ms ease, border-color 150ms ease; }
+    h1 { text-wrap: balance; }
+    .link { transition: color 150ms ease, border-color 150ms ease, background-color 150ms ease; }
     .link:hover { color: #0f172a; border-color: #0f172a; }
+    .primary-link:hover { background-color: #1e293b; border-color: #1e293b; color: #fffaf0; }
   </style>
 </head>
-<body class="bg-stone-50 text-slate-900 antialiased">
-  <main class="min-h-screen flex items-center justify-center px-6 py-16 sm:py-24">
-    <div class="max-w-xl w-full">
+<body class="bg-stone-50 text-slate-950 antialiased">
+  <main class="px-6 py-10 sm:px-10 lg:px-16">
+    <div class="mx-auto flex min-h-[calc(100vh-5rem)] max-w-5xl flex-col justify-between gap-14">
 
-      <h1 class="font-serif text-4xl sm:text-5xl font-medium tracking-tight mb-10">Julien Capron</h1>
+      <section class="pt-6 sm:pt-12">
+        <header class="mb-12 grid gap-8 sm:mb-14 lg:grid-cols-[minmax(0,1fr)_18rem] lg:items-start">
+          <div>
+            <p class="mb-6 text-sm font-medium uppercase tracking-[0.22em] text-slate-500">Julien Capron</p>
+            <h1 class="max-w-4xl font-serif text-5xl font-medium leading-[0.98] tracking-tight text-slate-950 sm:text-6xl md:text-7xl">
+              I make messy ideas real enough to test.
+            </h1>
+          </div>
+          <img src="assets/julien-capron.jpg" alt="Julien Capron smiling in a blue hoodie" class="aspect-[4/5] w-full max-w-64 rounded object-cover object-[50%_38%] shadow-sm sm:max-w-72 lg:justify-self-end">
+        </header>
 
-      <div class="space-y-5 text-lg leading-relaxed text-slate-700">
-        <p>
-          French engineering leader in New Jersey. Spent 20+ years building products, teams, and engineering systems at places like CB Insights and Storyblocks. Mostly I sit in the middle and translate: between business and tech, between fuzzy ideas and the first real version.
-        </p>
-        <p>
-          Currently building <a href="https://ancre.io" class="link text-slate-900 font-medium border-b border-slate-400 pb-0.5">Ancre</a>, where I help non-technical founders turn stuck ideas into prototypes and landing pages they can actually share. I also write occasionally about engineering management, hack days, AI tools, and how I used product thinking to lose 100 pounds.
-        </p>
-      </div>
+        <div class="grid gap-10 lg:grid-cols-[minmax(0,1.35fr)_minmax(17rem,0.65fr)]">
+          <div class="space-y-6 text-lg leading-8 text-slate-700 sm:text-xl sm:leading-9">
+            <p>
+              I am a French builder in New Jersey. Most of my work sits in the middle: between business and code, between the plan and the actual thing, between "this should exist" and "here is the first version."
+            </p>
+            <p>
+              I have spent 20+ years building products, teams, and engineering systems at CB Insights, Storyblocks, and now on my own. The useful part was never just the code. It was translating the mess into something people could see, use, and improve.
+            </p>
+            <p>
+              That work is now <a href="https://ancre.io" target="_blank" rel="noopener" class="link text-slate-950 font-medium border-b border-slate-400 pb-0.5">Ancre</a>. I help non-technical founders take an idea that has been stuck in their head for too long and turn it into something real enough for another human to react to.
+            </p>
+          </div>
 
-      <nav class="mt-10 flex flex-wrap gap-x-6 gap-y-3 text-base text-slate-600" aria-label="Elsewhere">
-        <a href="https://ancre.io" class="link border-b border-slate-300 pb-0.5">Ancre →</a>
-        <a href="https://www.linkedin.com/in/juliencapron/" class="link border-b border-slate-300 pb-0.5">LinkedIn</a>
-        <a href="https://juliencapron.substack.com/" class="link border-b border-slate-300 pb-0.5">Substack</a>
-        <a href="https://blog.juliencapron.com" class="link border-b border-slate-300 pb-0.5">Writing</a>
-        <a href="mailto:contact@juliencapron.com" class="link border-b border-slate-300 pb-0.5">Email</a>
-      </nav>
+          <aside class="border-t border-slate-300 pt-6 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0">
+            <p class="text-sm font-medium uppercase tracking-[0.18em] text-slate-500">Right now</p>
+            <div class="mt-4 space-y-4 text-base leading-7 text-slate-700">
+              <p>
+                I am building Ancre, a rapid-build service for non-technical founders.
+              </p>
+              <p>
+                The first version is simple: bring me the idea you keep circling. We turn it into a page, prototype, or first offer people can react to.
+              </p>
+            </div>
+          </aside>
+        </div>
+      </section>
 
-      <p class="mt-16 text-sm text-slate-500">
-        Also: D&amp;D DM, trumpet player, lifelong WWE fan, and still recovering from Outer Wilds.
-      </p>
+      <section class="border-y border-slate-200 py-8" aria-labelledby="patterns-heading">
+        <h2 id="patterns-heading" class="mb-8 font-serif text-3xl font-medium tracking-tight text-slate-950 sm:text-4xl">Things I keep coming back to</h2>
+        <div class="grid gap-8 sm:grid-cols-3">
+          <div>
+            <p class="text-sm font-medium uppercase tracking-[0.18em] text-slate-500">First versions</p>
+            <p class="mt-3 text-base leading-7 text-slate-700">
+              Hack days, AI tools, landing pages, prototypes, whatever makes the idea visible.
+            </p>
+          </div>
+          <div>
+            <p class="text-sm font-medium uppercase tracking-[0.18em] text-slate-500">Translation</p>
+            <p class="mt-3 text-base leading-7 text-slate-700">
+              Business to code. Founder to builder. Manager to team. Vague problem to shared language.
+            </p>
+          </div>
+          <div>
+            <p class="text-sm font-medium uppercase tracking-[0.18em] text-slate-500">Systems</p>
+            <p class="mt-3 text-base leading-7 text-slate-700">
+              I lost 100+ pounds by treating my health like a product problem. Inputs, feedback loops, boring consistency, visible progress.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid gap-8 lg:grid-cols-[17rem_minmax(0,1fr)]" aria-labelledby="personal-heading">
+        <h2 id="personal-heading" class="text-sm font-medium uppercase tracking-[0.18em] text-slate-500">A little more human</h2>
+        <div class="max-w-2xl space-y-5 text-lg leading-8 text-slate-700">
+          <p>
+            I am French, live in New Jersey, and have an annoying tendency to turn interests into systems.
+          </p>
+          <p>
+            D&amp;D tables, trumpet practice, wrestling storylines, fitness data. Different surface area, same habit: find the pattern, make it usable, keep going.
+          </p>
+        </div>
+      </section>
+
+      <footer class="pb-2">
+        <nav class="flex flex-wrap gap-x-5 gap-y-3 text-base text-slate-600" aria-label="Elsewhere">
+          <a href="https://ancre.io" target="_blank" rel="noopener" class="primary-link link rounded border border-slate-950 bg-slate-950 px-4 py-2 text-stone-50">Ancre</a>
+          <a href="https://www.linkedin.com/in/juliencapron/" target="_blank" rel="noopener" class="link border-b border-slate-300 pb-0.5">LinkedIn</a>
+          <a href="https://juliencapron.substack.com/" target="_blank" rel="noopener" class="link border-b border-slate-300 pb-0.5">Substack</a>
+          <a href="https://github.com/jcapron" target="_blank" rel="noopener" class="link border-b border-slate-300 pb-0.5">GitHub</a>
+          <a href="mailto:contact@juliencapron.com" class="link border-b border-slate-300 pb-0.5">Email</a>
+        </nav>
+      </footer>
 
     </div>
   </main>

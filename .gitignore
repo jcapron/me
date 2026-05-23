@@ -1,6 +1,7 @@
 # Local AI agent context. Not for public repo.
 AGENT_PLAYBOOK.md
 CLAUDE.md
+AGENTS.md
 
 # OS noise
 .DS_Store
